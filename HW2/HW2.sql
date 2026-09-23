@@ -1,3 +1,6 @@
+-- Jack Saunders
+-- Database Management Systems Homework 2
+-- 9/22/2026
 -- Set up and testing all the tables / CSV files
 use hw2;
 select * from baristas;
@@ -33,46 +36,46 @@ From offers
 Group by shopID;
 
 -- 6) Find the name, category, and price of any pastry whose price matches the maximum price within its category
-select name, price, category
-from pastries p
-where price = 
-	(select max(price)
-    from pastries c
-    where p.category = c.category);
+Select name, price, category
+From pastries p
+Where price = 
+	(Select max(price)
+    From pastries c
+	Where p.category = c.category);
 
 -- 7) Find the unique shop IDs from the offers table that have offered at least one pastry whose price is strictly greater than the overall average price of all pastries
-select shopID
-from offers
-where offers.pastryID =
-    (Select pastries.pastryID
+Select distinct shopID
+From offers
+Where pastryID in
+    (Select pastryID
 	From pastries
-	where price >
-		(select avg(price)
+	Where price >
+		(Select avg(price)
 		From pastries));
         
 -- 8) Find the shop ID and pastry ID for the records in the offers table that have the earliest date_added (minimum date) 
 Select *
 From offers
-where date_added <= all
-   (select date_added
+Where date_added <= all
+   (Select date_added
    From offers);
 
 -- 9) Find the shop ID(s) that offer the highest number of pastries, utilizing a subquery to evaluate the maximum count per shop 
-Select shopID, count(shopID) as "# pastries"
+Select shopID
 From offers
-Group by shopID
-Having count(*) >=
-   (select count(*)
-   From offers
-   Group by shopID);
+Group by shopId
+Having count(pastryID) >= all
+	(Select count(shopID)
+    From offers
+    Group by shopID);
 
 -- 10) Find the names of baristas who work at shops located in 'Seattle' using nested subqueries
 Select name
 From baristas
-Where baristas.shopID = 
-   (Select employs.shopID
-   From employs
-   Where employs.shopID = 
-      (Select shop.shopID
-      From shops
-      Where city = “Seattle”));
+Where baristaID in
+	(Select baristaID
+    From employs
+    Where shopID in
+		(Select shopID
+        From shops
+        Where city = 'Seattle'));
