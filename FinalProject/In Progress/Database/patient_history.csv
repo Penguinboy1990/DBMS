@@ -1,0 +1,101 @@
+patient_ID,last_name_first_initial,diagnosis,family_diagnoses,previous_medications,admitted,discharged,physician_assistant,procedure_ID
+86598,ABANTAO B.,vaginitis,covid-19,NULL,2024-9-1,2024-9-3,M. HALTMAN,27
+80001,ADDICE C.,depression,"epilepsy, rabies",paxil,2024-9-3,NULL,DR. W. WHITE,8
+39730,AULETTO T.,whiplash,NULL,heparin,2024-9-1,2024-9-3,DR. J. PINKMAN,2
+24624,BALDER S.,cancer,"genital herpes, radiation poisoning",qinlock,2024-9-5,NULL,DR. R. GELLER,26
+54889,BALUGAS B.,urinary tract infection,"staphylococcus aureus, naegleria fowleri, hepatitis B",NULL,2024-9-4,NULL,DR. G. FREEMAN,2
+57995,BAUTISTA V.,wilsons disease,harmful algal blooms,NULL,2024-9-1,NULL,DR. S. PINES,3
+29830,BERGMAN E.,fracture,"hepatitis B, arthritis, syphilis",NULL,2024-8-29,2024-9-1,G. GUILDHARDT,4
+81854,BLAZON P.,carbon monoxide poisoning,NULL,NULL,2024-8-26,2024-9-2,DR. L. MARIO,14
+59522,BLUES B.,NULL,"downs syndrome, sickle cell disease",hydrea,2024-8-31,NULL,DR. M. GREY,7
+91893,BOMBADILL T.,viral hepatitis,"rotavirus, diabetes, alzheimers disease, tinnitus",NULL,2024-9-2,NULL,G. GUILDHARDT,13
+22056,BROWN A.,meningitis,"stroke, fracture",NULL,2024-9-2,2024-9-5,DR. R. GELLER,9
+55624,CARLSON M.,rabies,"HIV, harmful algal blooms",NULL,2024-8-26,2024-8-29,M. HALTMAN,12
+40127,CARROLL K.,food poisoning,"alzheimers disease, conjunctivitis",krill oil,2024-8-26,2024-9-1,M. HALTMAN,20
+69109,CIFRA J.,tuberculosis,"histoplasmosis, rotavirus",alfacalcidol,2024-8-27,2024-8-29,G. GUILDHARDT,28
+15182,CIPHER B.,norovirus,attention deficit hyperactivity disorder,ozempic,2024-8-27,2024-9-1,DR. S. PINES,16
+84385,CONCH L.,fracture,"radiation poisoning, covid-19",NULL,2024-8-28,2024-9-2,G. GUILDHARDT,17
+81302,CONNOLLY K.,covid-19,"chagas disease, whiplash",NULL,2024-8-30,2024-9-3,DR. S. PINES,1
+35078,DABLE N.,chagas disease,"high blood pressure, covid-19, vaginitis","adderall, dupixent",2024-8-27,NULL,V. PUNK,21
+77863,DEBBIE M.,zika virus,food poisoning,NULL,2024-8-28,2024-8-28,DR. M. GREY,24
+58777,DEMARTINO T.,diabetes,"genital warts, covid-19","cephalexin, ozempic",2024-8-31,2024-9-3,M. HALTMAN,16
+15057,DESOMMA A.,chlamydia,"covid-19, cancer",zinc oxide,2024-8-29,2024-9-4,V. PUNK,25
+48936,ESPAÑA I.,frozen shoulder,"sickle cell disease, covid-19","desyrel, oxytocin, breyanzi",2024-9-3,2024-9-3,G. GUILDHARDT,27
+30006,FISCHER F.,pneumococcal disease,"influenza, covid-19",nicotine,2024-8-30,NULL,DR. G. MANN,6
+98993,FISHER B.,Marcus Gunn Jaw Winking Syndrome,"cancer, histoplasmosis",melatonin,2024-8-27,2024-9-5,DR. S. PINES,17
+86081,FREELAND C.,stress,"high cholesterol, tularemia",petrolatum,2024-8-28,2024-8-30,M. HALTMAN,19
+81184,GARCIA D.,hepatitis B,genital herpes,sulfamethoxazole,2024-8-26,2024-8-26,DR. M. GREY,4
+71040,GARDINER M.,NULL,"arthritis, genital warts",NULL,2024-8-29,2024-9-2,DR. T. T. CHOPPER,25
+46575,GEORGE S.,covid-19,"crabs, covid-19","wynzora, viagra",2024-8-27,2024-9-3,DR. L. MARIO,3
+37357,GEVERA E.,creutzfeldt-jakob disease,erectile dysfuncion,NULL,2024-8-31,2024-9-4,G. GUILDHARDT,15
+18839,GRUERIO G.,radiation poisoning,"depression, tuberculosis",ofev,2024-9-2,2024-9-5,DR. M. GREY,17
+75057,GUITTMAN A.,alzheimers disease,"hepatitis B, diabetes",aromasin,2024-8-28,2024-9-4,DR. L. MARIO,30
+62214,HAMMERS T.,depression,fibroids,rybelsus,2024-8-30,NULL,DR. J. SAUNDERS,20
+53330,HANIFIN C.,harmful algal blooms,"genital herpes, depression",naltrexone,2024-9-5,2024-9-5,DR. J. SAUNDERS,11
+99424,HILDER M.,rotavirus,"pneumococcal disease, earwax build-up",toradol,2024-9-2,NULL,DR. M. GREY,2
+32714,HILLS B.,enterovirus,arthritis,NULL,2024-9-1,NULL,DR. J. PINKMAN,30
+72677,HOHNER K.,downs syndrome,"pelvic inflammatory disease, creutzfeldt-jakob disease",NULL,2024-8-28,2024-8-30,DR. T. T. CHOPPER,12
+69894,HOLLOWAY M.,high blood pressure,"arthritis, epilepsy",robitussin,2024-8-26,2024-9-4,DR. M. GREY,5
+49826,HOSLOW D.,tinnitus,"tinnitus, HIV, asthma, cancer",NULL,2024-8-26,2024-9-2,G. GUILDHARDT,4
+76167,HOSLOW J.,chickenpox,NULL,NULL,2024-8-29,2024-9-2,G. GUILDHARDT,11
+49755,IACOBBO L.,stroke,NULL,brilinta,2024-8-26,2024-8-26,DR. S. PINES,30
+30501,IBRAHIM H.,sickle cell disease,"fracture, high blood pressure",NULL,2024-8-29,2024-8-31,DR. W. WHITE,2
+65637,ICEWELL A.,parkinsons disease,"fracture, stress, parkinsons disease, high blood pressure",timolol,2024-9-2,NULL,G. GUILDHARDT,22
+81194,INGA M.,genital warts,"tularemia, high cholesterol, zika virus",Setraline,2024-8-27,2024-9-5,G. GUILDHARDT,6
+79737,JONES G.,diarrhoea,tuberculosis,prednisone,2024-9-5,NULL,G. GUILDHARDT,16
+80231,KALATHIL S.,high blood pressure,"polio, attention deficit hyperactivity disorder, gonorrhea",nystatin,2024-9-3,NULL,DR. P. DEXTER,21
+36257,KARGI S.,epilepsy,"covid-19, arthritis",apixaban,2024-8-26,2024-8-29,G. GUILDHARDT,14
+69135,KHAN A.,high cholesterol,"chlamydia, sarcoidosis",dupixent,2024-9-5,2024-9-5,DR. J. SAUNDERS,16
+67943,KHAN M.,polio,"stress, alzheimers disease",NULL,2024-9-1,2024-9-5,DR. M. MARIO,28
+21507,KILIK S.,staphylococcus aureus,"food poisoning, covid-19",NULL,2024-8-31,NULL,DR. R. GELLER,19
+82164,KOEHLER M.,high cholesterol,"staphylococcus aureus, depression","westcort, hydrea",2024-8-28,2024-9-4,V. PUNK,10
+29528,KREINBERG J.,genital herpes,"food poisoning, tinnitus, arthritis, creutzfeldt-jakob disease",NULL,2024-8-30,2024-8-31,DR. W. WHITE,12
+72187,KROES K.,conjunctivitis,"diabetes, stress",oxytocin,2024-9-4,NULL,DR. R. GELLER,11
+55653,KURN M.,menopause,"rotavirus, asthma",budesonide,2024-8-31,2024-9-3,DR. J. SAUNDERS,16
+93605,LAURICELLA A.,foreign object in ear,"carbon monoxide poisoning, urinary tract infection",NULL,2024-9-1,2024-9-2,DR. W. WHITE,2
+95853,LENZETTI E.,cancer,"high cholesterol, enterovirus",NULL,2024-8-28,NULL,G. GUILDHARDT,29
+84756,LOEWEN K.,NULL,diarrhoea,NULL,2024-8-28,2024-9-4,DR. P. DEXTER,20
+12303,LOGAN C.,covid-19,"menopause, conjunctivitis, arthritis, urinary tract infection",NULL,2024-9-3,2024-9-3,V. PUNK,18
+30450,LOGUS O.,arthritis,"Marcus Gunn Jaw Winking Syndrome, chagas disease, fracture",NULL,2024-8-27,2024-8-30,V. PUNK,26
+14439,MACMATH D.,migraine,"gonorrhea, staphylococcus aureus",pseudoephedrine,2024-8-28,2024-8-29,DR. S. PINES,19
+45695,MALANDRINO B.,influenza,stress,naloxone,2024-8-28,NULL,DR. W. WHITE,17
+89494,MALDJIAN S.,stress,"diabetes, genital warts",namenda,2024-9-1,NULL,M. HALTMAN,29
+32532,MARREN S.,genetal herpes,"vaginitis, leukemia",ibuprofen,2024-9-1,NULL,DR. S. PINES,4
+16758,MARTINIQUE J.,covid-19,"frozen shoulder, stroke, HIV, high blood pressure",NULL,2024-8-28,2024-9-5,DR. M. GREY,12
+82571,MATRON T.,NULL,"diabetes, influenza",NULL,2024-9-1,NULL,DR. W. WHITE,17
+39092,MCDOWELL L.,histoplasmosis,NULL,sevelamer,2024-8-26,2024-8-29,G. GUILDHARDT,5
+99262,MERZ P.,attention deficit hyperactivity disorder,"conjunctivitis, stroke",yuvefem,2024-8-27,2024-9-1,G. GUILDHARDT,18
+23319,MODY R.,earwax build-up,"gonorrhea, diabetes, vaginitis, conjunctivitis",robitussin,2024-8-26,2024-9-1,DR. L. MARIO,5
+20806,MOSKAL L.,sarcoidosis,"cancer, covid-19",quinine,2024-9-1,NULL,DR. S. PINES,6
+53978,NAROZNIAK H.,erectile dysfuncion,wilsons disease,januvia,2024-8-28,2024-9-1,M. HALTMAN,2
+18463,NIMALAN S.,covid-19,"fracture, creutzfeldt-jakob disease",prednisone,2024-9-5,NULL,DR. W. WHITE,27
+65804,NORTHWEST T.,covid-19,meningitis,reglan,2024-8-26,2024-9-1,DR. W. WHITE,26
+36232,PATEL S.,covid-19,chlamydia,zantac,2024-8-31,NULL,DR. W. WHITE,5
+11041,PAZ G.,asthma,enterovirus,yervoy,2024-8-29,2024-9-4,DR. J. PINKMAN,20
+55459,PENNELLA J.,cancer,"acid reflux, fracture",banzel,2024-8-31,2024-9-1,M. HALTMAN,13
+38836,PEREZ I.,acid reflux,erectile dysfuncion,bystolic,2024-8-27,2024-8-28,M. HALTMAN,19
+69117,PHILIP R.,covid-19,"norovirus, high cholesterol",NULL,2024-8-30,2024-9-3,V. PUNK,11
+88593,POLANCO H.,stroke,"parkinsons disease, leukemia",silodosin,2024-8-27,2024-9-1,DR. J. SAUNDERS,3
+22264,RABINOWITZ A.,alzheimers disease,"rabies, zika virus, meningitis","prednisone, banzel",2024-8-31,2024-9-1,DR. G. FREEMAN,2
+49749,REBELE K.,headache,"alzheimers disease, cancer","nicotine, qinlock",2024-9-4,NULL,V. PUNK,11
+96707,RIVERA J.,HIV,attention deficit hyperactivity disorder,NULL,2024-9-1,2024-9-5,DR. T. T. CHOPPER,9
+43127,RIVERS J.,scabies,"migraine, whiplash, diarrhoea",aromasin,2024-8-31,NULL,G. GUILDHARDT,3
+92113,RUBI F.,covid-19,"high blood pressure, alzheimers disease",lyrica,2024-9-2,NULL,DR. G. FREEMAN,15
+22226,SAMMY A.,influenza,"influenza, asthma",NULL,2024-8-26,2024-9-2,DR. R. GELLER,21
+48306,SANDERS J.,NULL,"naegleria fowleri, syphilis",NULL,2024-9-4,NULL,DR. M. MARIO,18
+86784,SENATORE S.,gonorrhea,covid-19,xanax,2024-8-28,2024-8-30,DR. T. T. CHOPPER,27
+74287,SIMON A.,leukemia,"genetal herpes, Marcus Gunn Jaw Winking Syndrome",kaletra,2024-9-2,NULL,DR. L. MARIO,21
+95264,SOLTYS A.,syphilis,"tularemia, cancer",nicotine,2024-8-28,2024-9-2,DR. T. T. CHOPPER,4
+20223,STEFFEN M.,fibroids,chickenpox,NULL,2024-9-3,NULL,G. GUILDHARDT,29
+70986,STEINS D.,NULL,"cancer, sarcoidosis",desyrel,2024-8-28,2024-9-1,DR. M. MARIO,22
+22741,TIME T.,attention deficit hyperactivity disorder,"cancer, fracture","duopa, heparin",2024-9-1,NULL,DR. S. PINES,25
+93597,TOLLI A.,gonorrhea,"erectile dysfuncion, high blood pressure, stress",metoprolol succinate,2024-8-31,NULL,DR. J. SAUNDERS,23
+83250,TURAN M.,pelvic inflammatory disease,"headache, covid-19",breyanzi,2024-9-3,2024-9-5,DR. M. MARIO,24
+20707,TURCO L.,arthritis,influenza,NULL,2024-9-2,2024-9-5,DR. M. MARIO,18
+10966,VARGHESE J.,covid-19,influenza,NULL,2024-8-28,2024-8-29,V. PUNK,5
+85297,WEHRER J.,tularemia,"cancer, gonorrhea",dupixent,2024-8-30,2024-9-2,DR. G. MANN,18
+88070,WEOBLY A.,diabetes,"attention deficit hyperactivity disorder, earwax build-up","cymbalta, naloxone",2024-9-4,NULL,DR. G. FREEMAN,16
+77953,WICKMAN S.,NULL,"creutzfeldt-jakob disease, high cholesterol",latuda,2024-9-4,NULL,M. HALTMAN,29
+13279,WIJESINGHE T.,naegleria fowleri,"earwax build-up, stress",viagra,2024-9-3,2024-9-3,V. PUNK,12
+38774,WILLIAMS R.,cancer,migraine,zepbound,2024-9-4,NULL,V. PUNK,19
+19203,WU B.,crabs,"depression, high cholesterol",ranexa,2024-8-29,NULL,M. HALTMAN,7
