@@ -1,0 +1,31 @@
+procedure_ID,procedure_type,cost,procedure_length,recovery_time,description
+1,X-ray,125,15 min,NULL,Eloctromagnetic radiation that passes through body and creates an image.
+2,Stool sample,35,72 hr,NULL,Sample of feces that undergoes lab tests related to GI issues.
+3,Urine sample,29,24 hr,NULL,Sample of urine that undergoes lab tests.
+4,Cast removal,150,15 min,NULL,The cutting off of a cast.
+5,Incision and drainage,450,20 min,2-3 weeks,Minor surgery involving the small cut of the skin in order to remove pus from an abscess.
+6,Arthrocentesis,751,10 min,5-7 days,Minor surgery involving the removal of liquid from a joint.
+7,Suturing,353,10 min,2 weeks,The stitching closed of a wound.
+8,MRI,615,45 min,NULL,Non-invasive imaging that uses radio waves and strong magnetic fields.
+9,CT Scan,375,30 min,NULL,Imaging that uses x-rays to create a cross-section image of the body.
+10,Physical Exam,430,45 min,NULL,Routine check up. Involves evaluating the overall health of the patient.
+11,Endoscopy,1000,30 min,2 hours,The use of an endoscope to examine the inside of the body.
+12,Blood test,125,48 hr,NULL,Blood sample is collected and has labs run on it.
+13,Radiation Therapy,30000,8 week,2 months,"Cancer treatment using radiation to kill cancer cells and shrink tumors,"
+14,Sclerotherapy,325,45 min,2 weeks,The injection of a chemical solution into a blood vessell in order to break it down and scar it.
+15,Biopsy,4000,60 min,24 hours,The removal of a small sample of tissue or cells for lab work.
+16,Skin Graft,2400,50 min,5-7 days,Surgical operation involving the removal and tranfser of skin from a donor area to a new area. 
+17,Exercise stress test,600,1 hr,15 minutes,Non-invasive procedure measuring how the heart reacts to physical activity.
+18,Ultrasound,600,60 min,NULL,Procedure using high-energy sound waves to examine internal tissues and organs.
+19,Vasectomy,1000,30 min,12 hours,Surgical operation that prevents sperm from reaching semen. Permanent form of male birth control. 
+20,Organ Transplant,500000,6 hr,10-14 days,Surgical operation that involves the removal of a healthy organ from a donor and the placement of the organ into a recipient with damaged or failing organ.
+21,Eye Test,75,45 min,4-6 hours,A series of tests that evaluate patients vision and eye health.
+22,Circumcision,325,10 min,10 days,The surgical removal of the foreskin of a male.
+23,DNA test,100,10 min,NULL,The analysis of a patients DNA to check for changes that could be associated to genetic conditions.
+24,Rehabilitation,575,3 month,4 weeks,"Process to help patient regain or improve physical, mental, or cognitive ability."
+25,Blood Transfusion,219,3 hr,48 hours,Procedure that introduces new blood or blood components into a patients bloodstream.
+26,Laceration repair,576,10 min,1-2 weeks,Procedure that treats cuts or tears to the skin and underlying tissues.
+27,Fine needle aspiration,200,15 min,48 hours,"Minimally invasive procedure that uses a thin needle to extract a sample of cells, tissue, or fluids from a mass."
+28,Chemotherapy,48000,6 month,2-3 months,Cancer treatment using drugs to kill cancer cells or stop them from dividing.
+29,Medication,100,0 min,2-4 weeks,The use of drugs in order to treat an ailment or injury.
+30,Wellness Check,38,15 min,NULL,Preventative service to assess patients overall health and detect potential medical concerns.
