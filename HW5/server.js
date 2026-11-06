@@ -13,7 +13,7 @@ const pool = require('./mysql');
 // user should pass a category search for, e.g., /?category=dystopian
 app.get("/", async (req, res) => {
     const category = req.query.category;
-    const format = req.query.format || "text"; // default to text if not specified
+    const format = req.query.format || "json"; // default to text if not specified
     if (!category) // input validation: ensure the input exists
         return res.status(400).send("Error: Please provide a 'category' to search for.");
 
