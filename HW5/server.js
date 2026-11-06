@@ -75,5 +75,5 @@ app.get("/format", async (req,res) => {
 
 // wait indefinitely in a loop
 app.listen(port, function () {
-    console.log(`Server 3 running on http://localhost:${port}`);
+    console.log(`Server running on http://localhost:${port}`);
 });
