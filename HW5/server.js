@@ -10,31 +10,39 @@ const mysql = require('mysql2/promise');
 const pool = require('./mysql');
 
 // receiving user input using /get route and async function
-// user should pass a category search for, e.g., /?category=dystopian
 app.get("/", async (req, res) => {
-    const category = req.query.category;
-    const format = req.query.format || "json"; // default to text if not specified
-    if (!category) // input validation: ensure the input exists
-        return res.status(400).send("Error: Please provide a 'category' to search for.");
+    const format = req.query.format || "json";
 
-    // define the query structure with a placeholder (?)
-    const sqlQuery = "SELECT * FROM HW5new.books WHERE category = ?";
+// columns the user is allowed to search by (must match your table's column names)
+    const SEARCHABLE = ["book_id", "title", "author", "category", "price"];
 
-    // The user's input is passed as a separate array
-    const params = [category];
+// build the WHERE clause from whichever parameters were supplied
+    const conditions = [];
+    const params = [];
+    for (const column of SEARCHABLE)
+        if (req.query[column]) {
+            conditions.push(`${column} = ?`); // column name comes from the whitelist
+            params.push(req.query[column]);   // value is passed as a parameter
+        }
+
+// input validation: at least one search field is required
+    if (conditions.length === 0)
+        return res.status(400).send("Error: Please provide a search parameter in the URL, e.g. ?author=George Orwell");
+
+    const sqlQuery = "SELECT * FROM HW5new.books WHERE " + conditions.join(" AND ");
     try {
         // execute the query using pool.execute()
         const [results, fields] = await pool.execute(sqlQuery, params);
-        console.log(`Executed query: ${sqlQuery} with category ${category}`);
+        console.log(`Executed query: ${sqlQuery} with category ${params}`);
 
         // check for formatting request
         if (format == "text"){
-            let html = `<h1>Books in Database with Category: ${category}</h1>`;
+            let html = `<h1>Search Results</h1>`;
             results.forEach(book => {
                 html += `
                 <div>
-                    <h2>${book.title}</h2>
-                    <p>Book ID: ${book.book_id}</p>
+                    <h2>Title: ${book.title}</h2>
+                    <p>Book ID: ${book.bookid}</p>
                     <p>Author: ${book.author}</p>
                     <p>Category: ${book.category}</p>
                     <p>Price: $ ${book.price}</p>
@@ -61,10 +69,11 @@ app.get("/format", async (req,res) => {
         results.forEach(book => {
             html += `
             <div>
-                <h2>${book.title}</h2>
-                <p>Book ID: ${book.book_id}</p>
+                <h2>Title: ${book.title}</h2>
+                <p>Book ID: ${book.bookid}</p>
                 <p>Author: ${book.author}</p>
-                <p>Price: ${book.price}</p>
+                <p>Category: ${book.category}</p>
+                <p>Price: $ ${book.price}</p>
             </div>
             <hr>
             `;
